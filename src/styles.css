@@ -1,0 +1,47 @@
+.App {
+  margin-top: 15px;
+  font-family: "Roboto";
+}
+
+h2 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.main-wrapper {
+  max-width: 1200px;
+  /* min-width: 1024px; */
+  margin: 0 auto;
+}
+
+.taskItem {
+  margin-bottom: 15px;
+  cursor: grab;
+}
+
+.taskItem:active {
+  cursor: grabbing;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+}
+
+.taskTitle {
+  font-size: 16px;
+}
+
+.taskDescription {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.tasksHeader {
+  font-family: "Yatra One";
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #737373;
+}
+
+.btn-add {
+  margin: 15px 0;
+}
